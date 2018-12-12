@@ -70,7 +70,7 @@
 	  printf("Ciphertext is:\n");
 	  BIO_dump_fp (stdout, (const char *)ciphertext, 16);
 
-	char alphabet[] = "ectrapuqs";
+	char alphabet[] = "sectrapuq";
 	char password_found[17];
 	int flag_found=0;
 
